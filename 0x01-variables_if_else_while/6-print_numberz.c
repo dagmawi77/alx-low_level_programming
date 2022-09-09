@@ -13,8 +13,8 @@ int main(void)
 
 	for (i = '0'; i <= '9' ; i++)
 	{
-	printf(i);
+	putchar(i);
 	}
-	printf("\n");
+	putchar("\n");
 	return (0);
 }
