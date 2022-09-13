@@ -1,9 +1,12 @@
-#include "main.h"
-/**
- * main - Entry point
- *
- * print_alphabet function
+/*
+ *custome header
  */
+
+#include "main.h"
+
+/**
+ *  * print_alphabet - prints the alphabet in lowercase.
+ *   */
 void print_alphabet(void)
 {
 	char low;
