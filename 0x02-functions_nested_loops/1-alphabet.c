@@ -6,15 +6,15 @@
  *
  * Return: Always 0 (Success)
  */
-
-
 void print_alphabet(void)
 {
 	
 	char low;
-	for (low = 'z'; low >='a';low--){
+
+	for (low = 'z'; low >='a';low--)
+	{
 		_putchar(low);
 	}
-	_putchar('\n')
+	_putchar('\n');
 
 }
