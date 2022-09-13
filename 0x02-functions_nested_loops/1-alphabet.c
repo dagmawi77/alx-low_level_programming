@@ -2,13 +2,13 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success)
+ * print_alphabet function
  */
 void print_alphabet(void)
 {
 	char low;
 
-	for (low = 'a'; low <='z' ; low++)
+	for (low = 'a'; low <= 'z' ; low++)
 	{
 		_putchar(low);
 	}
