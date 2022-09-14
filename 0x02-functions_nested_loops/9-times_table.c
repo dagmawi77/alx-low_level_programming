@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- *time_table - prints the alphabet in lowercase.
+ *times_table - prints the alphabet in lowercase.
  *
  *Return: void
  */
-void time_table(void)
+void times_table(void)
 {
 	int n, multi, prod;
 
