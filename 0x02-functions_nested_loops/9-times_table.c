@@ -24,7 +24,7 @@ void time_table(void)
 		}
 		else
 		{
-			_putchar((proud / 10) + '0');
+			_putchar((prod / 10) + '0');
 		}
 			_putchar((prod % 10) + '0');
 		}
