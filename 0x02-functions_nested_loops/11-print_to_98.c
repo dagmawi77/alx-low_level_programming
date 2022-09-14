@@ -1,8 +1,7 @@
-#include "main.h"
+#include <stdio.h>
 /**
- *add - prints the alphabet in lowercase.
- *@num1: the first numm and @ num2 : the second Num
- *@num2: the Second number
+ *print_to_98 - prints the alphabet in lowercase.
+ *@n: the first numm and @ num2 : the second Num
  *Return: void
  */
 void print_to_98(int n)
