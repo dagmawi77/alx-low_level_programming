@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include "main.h"
 /**
  *add - prints the alphabet in lowercase.
  *@num1: the first numm and @ num2 : the second Num
