@@ -23,7 +23,7 @@ void print_times_table(int n)
 				{
 					_putchar(' ');
 				}
-				if (p <=9)
+				if (p <= 9)
 				{
 					_putchar(' ');
 				}
@@ -36,7 +36,7 @@ void print_times_table(int n)
 				{
 					_putchar((p / 10) + '0');
 				}
-				_putchar((p % 10) + 0);
+				_putchar((p % 10) + '0');
 			}
 			_putchar('\n');
 		}
