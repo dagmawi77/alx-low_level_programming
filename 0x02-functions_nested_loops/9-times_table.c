@@ -8,7 +8,7 @@ void time_table(void)
 {
 	int n, multi, prod;
 
-	for (n = 0; n <= 9; h++)
+	for (n = 0; n <= 9; n++)
 	{
 		_putchar('0');
 		for (multi = 1; multi <= 9; multi++)
