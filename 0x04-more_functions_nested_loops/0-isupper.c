@@ -2,13 +2,13 @@
 
 /**
  * _isupper - is function
- * @c: 
+ * @c: is char
  * Return:1 if the char is upper ,0 to char is false
  */
 
 int _isupper(int c)
 {
-	if(c >= 'A' && c <= 'Z')
+	if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}
