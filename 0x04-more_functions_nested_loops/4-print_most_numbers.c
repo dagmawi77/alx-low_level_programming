@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_most_numbers -
+ * print_most_numbers - is void functions 
  */
 void print_most_numbers(void)
 {
@@ -14,5 +14,6 @@ void print_most_numbers(void)
 			_putchar((i % 10) + '0');
 		}
 	}
+
 	_putchar('\n');
 }
