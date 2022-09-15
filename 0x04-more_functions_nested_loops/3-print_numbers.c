@@ -2,11 +2,8 @@
 
 /**
  * print_numbers - is multiplication function
- * @void: is the first num
- * Return: void
  */
-
-int print_numbers(void)
+void print_numbers(void)
 {
 	int i;
 
