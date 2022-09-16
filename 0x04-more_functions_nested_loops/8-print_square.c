@@ -1,4 +1,4 @@
-#include "main.hi"
+#include "main.h"
 /**
  * print_square - Draws a straight line using the character.
  * @size: The number of _ characters to be printed.
