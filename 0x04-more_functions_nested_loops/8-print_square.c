@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main.hi"
 /**
  * print_square - Draws a straight line using the character.
  * @size: The number of _ characters to be printed.
@@ -17,6 +17,7 @@ void print_square(int size)
 			if (h == size -1)
 				continue;
 			_putchar('\n');
+
 		}
 	}
 
