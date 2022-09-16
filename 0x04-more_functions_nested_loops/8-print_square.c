@@ -16,7 +16,7 @@ void print_square(int size)
 
 			if(h == size -1)
 				continue;
-			_putchar('\')
+			_putchar('\n');
 		}
 	}
 
