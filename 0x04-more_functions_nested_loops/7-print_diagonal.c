@@ -13,13 +13,15 @@ void print_diagonal(int n)
 		{
 			for (s = 0; s < l; s++)
 			{
-			_putchar(' ');
+				_putchar(' ');
 			}
 			_putchar('\\');
+
 			if (l == n -1)
 			{
-			continue;
+				continue;
 			}
+
 			_putchar('\n');
 		}
 
