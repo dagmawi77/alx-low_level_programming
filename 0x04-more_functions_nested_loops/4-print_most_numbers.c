@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_most_numbers - is void functions 
+ * print_most_numbers - is void functions
  */
 void print_most_numbers(void)
 {
