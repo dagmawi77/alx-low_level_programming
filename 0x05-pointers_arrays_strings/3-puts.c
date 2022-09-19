@@ -5,7 +5,7 @@
  * @str: is pointer one
  * Return: The length of @str.
  */
-void _puts(char *s)
+void _puts(char *str)
 {
 	while (*str)
 	{
