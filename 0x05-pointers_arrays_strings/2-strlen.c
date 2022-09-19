@@ -5,9 +5,9 @@
  * @s: is pointer one
  * 
  */
-int _strlen(char *s)
+size_t _strlen(const char *s)
 {
-	int len = 0;
+	size_t len = 0;
 
 	while (*s++)
 	{
