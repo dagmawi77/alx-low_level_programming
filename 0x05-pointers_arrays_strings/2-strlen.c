@@ -3,7 +3,7 @@
  * _strlen - is return the length of string
  * return : len
  * @s: is pointer one
- * 
+ * Return: The length of @str.
  */
 size_t _strlen(const char *s)
 {
