@@ -5,7 +5,7 @@
  * @s: is pointer one
  * Return: The length of @str.
  */
-void rev_string(char *str)
+void rev_string(char *s)
 {
 	int len = 0, index;
 	char tmp;
