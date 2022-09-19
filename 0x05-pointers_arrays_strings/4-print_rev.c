@@ -5,15 +5,15 @@
  * @str: is pointer one
  * Return: The length of @str.
  */
-void print_rev(char *str)
+void print_rev(char *s)
 {
 	int l = 0, index;
 
-	while (str[index++])
+	while (s[index++])
 		l++;
 
 	for (index = l - 1; index >= 0; index--)
-	       	_putchar(str[index]);
-			
+	       	_putchar(s[index]);
+
 	_putchar('\n');
 }
