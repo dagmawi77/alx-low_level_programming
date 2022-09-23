@@ -1,11 +1,10 @@
 #include "main.h"
 /**
  * _strncpy - copy at most an inputted
- * @dest: the buffer 
- * @src: the Source string
- * @n: The max num of bytes
- * Return: A pointer
- *
+ * @dest: the buffer.
+ * @src: the Source string.
+ * @n: The max num of bytes.
+ * Return: the final Result.
  */
 char *_strncpy(char *dest, char *src, int n)
 {
