@@ -7,7 +7,7 @@
  * Return : @dest string
  *
  */
-char *strcat(char *dest, char *src)
+char *strcat(char *dest, const char *src)
 {
 	int i = 0, l = 0;
 
