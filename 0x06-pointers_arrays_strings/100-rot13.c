@@ -37,7 +37,7 @@ char *rot13(char *str)
 			}
 		}
 
-		i++;
+		i1++;
 	}
 
 	return (str);
