@@ -2,11 +2,10 @@
 #include <unistd.h>
 
 /**
- * _putchar - to print Char
- * @c: the Char to print
- * Return : is 1.
+ * _putchar - to print Char.
+ * @c: the Char to print.
  *
- *
+ * Return : is return 1.
  */
 int _putcahr(char c)
 {
