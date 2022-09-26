@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * memser - Fill the Firest n byetes
+ * memset - Fill the Firest n byetes
  * @s: A pinter of mem.
  * @c: The Char to fill mem.
  * @n: number of byte
