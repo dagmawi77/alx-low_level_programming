@@ -8,7 +8,7 @@
  *
  * Return : The pinter to fill are @s.
  */
-void *_memset(void *s, int c, size_t n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int i;
 	unsigned char *m = s, v = c;
