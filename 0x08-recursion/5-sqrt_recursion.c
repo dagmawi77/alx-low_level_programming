@@ -2,7 +2,7 @@
 int find_sqrt(int num, int root);
 int _sqrt_recursion(int n);
 /**
- * _pow_recursion - print String.
+ * find_sqrt - print String.
  * @num: num raised.
  * @root: power.
  * Return: l of string
