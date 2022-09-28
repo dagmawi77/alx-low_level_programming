@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _print_rev_recursion - print String.
+ * _strlen_recursion - print String.
  *  @s: printed String.
  *
  */
