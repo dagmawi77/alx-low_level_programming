@@ -1,20 +1,22 @@
+
 #include "main.h"
 
 /**
- * _memset - Fill the Firest n byetes.
- * @s: A pinter of mem.
- * @c: The Char to fill mem.
- * @n: number of byte.
+ * memset - Fills the first n bytes of the memory area
+ * @s: A pointer to the memory area to be filled.
+ * @c: The character to fill the memory area with.
+ * @n: The number of bytes to be filled.
  *
- * Return : The pinter to fill are @s.
+ * Return: A pointer to the filled memory area @s.
  */
-char *_memset(char *s, char b, unsigned int n)
+
+void *_memset(void *s, int c, size_t n)
 {
-	unsigned int i;
-	unsigned char *m = s, v = c;
+	unsigned int index;
+	unsigned char *memory = s, value = c;
 
-	for (i = 0; i < n; i++)
-		m[i] = v;
+	for (index = 0; index < n; index++)
+		memory[index] = value;
 
-	return (m);
+	return (memory);
 }
