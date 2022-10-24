@@ -1,12 +1,20 @@
 #include "lists.h"
+#include <stdio.h>
 /**
- * print_binary - Prints the binary representation of a number.
- * @n: The number to be printed in binary.
+ * listint_len - Returns the number of elements.
+ * @h: A pointer to the head of the listint_t list.
+ *
+ * Return: The number of elements in the listint_t list.
  */
-void print_binary(unsigned long int n)
+size_t listint_len(const listint_t *h)
 {
-	if (n > 1)
-		print_binary(n >> 1);
+	size_t nodes = 0;
 
-	_putchar((n & 1) + '0');
+	while (h)
+	{
+		nodes++;
+		h = h->next;
+	}
+
+	return (nodes);
 }
